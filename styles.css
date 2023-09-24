@@ -1,0 +1,1910 @@
+/* Estilos para el contenedor principal de la sección Home */
+.Home {
+  width: 1440px;
+  height: 1024px;
+  background-color: #ffffff;
+  overflow: hidden;
+  margin: 0 auto; /* Centrar horizontalmente el contenido */
+}
+
+/* Estilos para el contenedor que engloba varios elementos */
+.Home .overlap-group {
+  position: relative;
+  width: 1738px;
+  height: 956px;
+  left: -241px;
+}
+
+/* Estilos para un rectángulo */
+.Home .rectangle {
+  position: absolute;
+  width: 1311px;
+  height: 956px;
+  top: 0;
+  left: 241px;
+}
+
+/* Estilos para el texto principal */
+.Home .text-wrapper {
+  position: absolute;
+  width: 622px;
+  top: 275px;
+  left: 365px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 48px;
+  letter-spacing: 2.72px;
+  line-height: 102px;
+}
+
+/* Estilos para el texto de selección de cursos */
+.Home .selecciona-los {
+  position: absolute;
+  width: 636px;
+  top: 516px;
+  left: 365px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0.88px;
+  line-height: 44px;
+}
+
+/* Estilos para un grupo de elementos */
+.Home .group {
+  position: absolute;
+  width: 679px;
+  height: 213px;
+  top: 611px;
+  left: 0;
+}
+
+/* Estilos para un div con efecto de blur */
+.Home .div {
+  position: absolute;
+  width: 606px;
+  height: 99px;
+  top: 114px;
+  left: 73px;
+  background-color: #ffffff0d;
+  border-radius: 86px;
+  filter: blur(12px); /* Efecto de blur aplicado */
+}
+
+/* Estilos para otro rectángulo con efecto de blur */
+.Home .rectangle-2 {
+  position: absolute;
+  width: 606px;
+  height: 99px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff08;
+  border-radius: 86px;
+  filter: blur(12px); /* Efecto de blur aplicado */
+}
+
+/* Estilos para el botón CTA (Call to Action) en la parte inferior */
+.Home .bottom-CTA {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 13px 45px;
+  position: absolute;
+  top: 665px;
+  left: 366px;
+  background-color: #ffffff;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: var(--shadow-calm-shadow-mood);
+}
+
+/* Estilos para el texto "Registraté Ahora" en el botón */
+.Home .registrat-ahora {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  background: linear-gradient(180deg, rgb(255, 0, 110) 0%, rgb(255, 190, 11) 100%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  line-height: 40px;
+  white-space: nowrap;
+}
+
+/* Estilos para un grupo de elementos en la parte superior */
+.Home .frame {
+  display: inline-flex;
+  align-items: center;
+  gap: 250px;
+  padding: 14px 117px 14px 118px;
+  position: absolute;
+  top: 0;
+  left: 241px;
+  background-color: #ffffff08;
+  backdrop-filter: blur(4px) brightness(100%); /* Efecto de blur aplicado */
+  -webkit-backdrop-filter: blur(4px) brightness(100%); /* Efecto de blur aplicado */
+}
+
+/* Estilos para el logo */
+.Home .logo {
+  position: relative;
+  width: 127px;
+  height: 70px;
+}
+
+/* Estilos para el texto "Uml-teach" en el logo */
+.Home .UML-teach {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Roboto", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 35px;
+  letter-spacing: 1.4px;
+  line-height: 70px;
+  white-space: nowrap;
+}
+
+/* Estilos para la barra de navegación */
+.Home .navbar {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 41px;
+  position: relative;
+  flex: 0 0 auto;
+}
+
+/* Estilos para el texto "Inicio" en la barra de navegación */
+.Home .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  line-height: 40px;
+  white-space: nowrap;
+}
+
+/* Estilos para el texto "Más Buscado" en la barra de navegación */
+.Home .text-wrapper-3 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  line-height: 40px;
+  white-space: nowrap;
+}
+
+/* Estilos para un grupo de iconos */
+.Home .group-2 {
+  position: relative;
+  width: 122px;
+  height: 34px;
+}
+
+/* Estilos para el icono de usuario */
+.Home .icon-user {
+  left: 87px;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: -1px;
+}
+
+/* Estilos para el icono de búsqueda */
+.Home .icon-search {
+  left: -1px;
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: -1px;
+}
+
+/* Estilos para otro grupo de elementos */
+.Home .group-3 {
+  position: absolute;
+  width: 274px;
+  height: 76px;
+  top: 660px;
+  left: 638px;
+}
+
+/* Estilos para el contenedor que envuelve al vector con efecto de blur */
+
+
+/* Estilos para el vector con efecto de blur */
+.Home .vector-wrapper {
+  position: relative;
+  width: 66px;
+  height: 66px;
+  top: 4px;
+  left: 4px;
+  background-color: #ffffff;
+  border-radius: 33px;
+  box-shadow: var(--shadow-calm-shadow-mood);
+}
+
+/* Estilos para el vector dentro del vector-wrapper */
+.Home .vector {
+  position: absolute;
+  width: 25px;
+  height: 29px;
+  top: 19px;
+  left: 23px;
+}
+
+/* Estilos para el texto "Mira Una Demostración" */
+.Home .mira-una-demostraci {
+  position: absolute;
+  top: 23px;
+  left: 91px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0.64px;
+  line-height: 32px;
+  text-decoration: underline;
+  white-space: nowrap;
+}
+
+/* Estilos para dos elementos de imagen */
+.Home .image {
+  background-image: url('img/programacion.svg'); /* Reemplaza 'ruta-de-la-imagen-1.jpg' con la ruta de tu primera imagen */
+  background-position: center center;
+  background-size: cover;
+  height: 515px;
+  top: 440px;
+  left: 1181px;
+  position: absolute;
+  width: 408px;
+  background-color: #f1f1f1;
+  border-radius: 24px;
+  box-shadow: var(--shadow-calm-shadow-mood);
+}
+
+.Home .image-2 {
+  background-image: url('img/student.svg'); /* Reemplaza 'ruta-de-la-imagen-1.jpg' con la ruta de tu primera imagen */
+  background-position: center center;
+  background-size: cover;
+  height: 514px;
+  top: 230px;
+  left: 1047px;
+  position: absolute;
+  width: 408px;
+  background-color: #f1f1f1;
+  border-radius: 24px;
+  box-shadow: var(--shadow-calm-shadow-mood);
+}
+
+
+
+
+                                                                     /* Estilos para section2 */
+
+
+
+
+.VENTAJAS {
+  position: relative;
+  width: 1440px;
+  height: 826px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+.VENTAJAS .ventajas-de-aprender {
+  position: absolute;
+  top: 92px;
+  left: 334px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 600;
+  color: #232323;
+  font-size: 44px;
+  letter-spacing: 1.76px;
+  line-height: 66px;
+  white-space: nowrap;
+}
+
+.VENTAJAS .frame {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  position: absolute;
+  top: 322px;
+  left: 117px;
+}
+
+.VENTAJAS .group {
+  position: relative;
+  width: 361px;
+  height: 238.5px;
+}
+
+.VENTAJAS .text-wrapper {
+  position: absolute;
+  width: 327px;
+  top: 110px;
+  left: 15px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #343434;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0.96px;
+  line-height: 36px;
+}
+
+.VENTAJAS .purus-nibh-ultrices {
+  position: absolute;
+  width: 357px;
+  top: 174px;
+  left: 0;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #7a7a7a;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.64px;
+  line-height: 32px;
+}
+
+.VENTAJAS .img-wrapper {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  top: 0;
+  left: 140px;
+  background-color: #ffffff;
+  border-radius: 39px;
+  box-shadow: var(--shadow-calm-shadow-mood);
+}
+
+.VENTAJAS .icon-daily-analysis {
+  position: absolute;
+  width: 41px;
+  height: 24px;
+  top: 27px;
+  left: 18px;
+}
+
+.VENTAJAS .overlap-group-wrapper {
+  position: relative;
+  width: 392px;
+  height: 415px;
+}
+
+.VENTAJAS .overlap-group {
+  position: relative;
+  width: 580px;
+  height: 543px;
+  top: -39px;
+  left: -84px;
+  background-image: url(./img/rectangle-9.svg);
+  background-size: 100% 100%;
+}
+
+.VENTAJAS .div {
+  position: relative;
+  width: 362px;
+  height: 238px;
+  top: 145px;
+  left: 101px;
+}
+
+.VENTAJAS .text-wrapper-2 {
+  position: absolute;
+  width: 329px;
+  top: 110px;
+  left: 14px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 500;
+  color: #343434;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0.96px;
+  line-height: 36px;
+}
+
+.VENTAJAS .p {
+  position: absolute;
+  width: 358px;
+  top: 174px;
+  left: 0;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #7a7a7a;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.64px;
+  line-height: 32px;
+}
+
+.VENTAJAS .img {
+  position: absolute;
+  width: 31px;
+  height: 44px;
+  top: 18px;
+  left: 24px;
+}
+
+.VENTAJAS .group-2 {
+  position: relative;
+  width: 361px;
+  height: 238.5px;
+  margin-right: -4px;
+}
+
+.VENTAJAS .icon-lamp-smart-wrapper {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  top: 0;
+  left: 139px;
+  background-color: #ffffff;
+  border-radius: 39px;
+  box-shadow: var(--shadow-calm-shadow-mood);
+}
+
+.VENTAJAS .elit-ut-arcu {
+  position: absolute;
+  width: 961px;
+  top: 183px;
+  left: 240px;
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #696969;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  line-height: 40px;
+}
+
+
+                                                                 /* Estilos para section3 */
+   
+/* Estilos para el contenedor principal .BLOQUE */
+.BLOQUE {
+  position: relative;
+  width: 1440px;
+  height: 1457px;
+  background-color: #ffffff;
+  overflow: hidden;
+  margin: 0 auto; /* Centrar horizontalmente el contenido */
+}
+
+/* Estilos para el elemento .overlap dentro de .BLOQUE */
+.BLOQUE .overlap {
+  position: absolute;
+  width: 782px;
+  height: 582px;
+  top: 122px;
+  left: 869px;
+}
+
+/* Estilos para el elemento .vector dentro de .BLOQUE */
+.BLOQUE .vector {
+  position: absolute;
+  width: 531px;
+  height: 513px;
+  top: 0;
+  left: 40px;
+}
+
+/* Estilos para el grupo de elementos .group dentro de .BLOQUE */
+.BLOQUE .group {
+  position: absolute;
+  width: 679px;
+  height: 213px;
+  top: 283px;
+  left: 103px;
+}
+
+/* Estilos para el elemento .rectangle dentro de .group */
+.BLOQUE .rectangle {
+  top: 114px;
+  left: 73px;
+  background-color: #ffffff1a;
+  position: absolute;
+  width: 606px;
+  height: 99px;
+  border-radius: 86px;
+  filter: blur(12px); /* Efecto de blur aplicado */
+}
+
+/* Estilos para el elemento .div dentro de .group */
+.BLOQUE .div {
+  top: 0;
+  left: 0;
+  background-color: #ffffff0d;
+  position: absolute;
+  width: 606px;
+  height: 99px;
+  border-radius: 86px;
+  filter: blur(12px); /* Efecto de blur aplicado */
+}
+
+/* Estilos para el elemento .image dentro de .BLOQUE */
+.BLOQUE .image {
+  top: 51px;
+  left: 137px;
+  background-color: #22cef4;
+  position: absolute;
+  width: 299px;
+  height: 299px;
+  border-radius: 12px;
+  box-shadow: var(--shadow-calm-shadow-mood);
+}
+
+/* Estilos para el elemento .image-2 dentro de .BLOQUE */
+.BLOQUE .image-2 {
+  top: 283px;
+  left: 0;
+  background-color: #ffbe0b;
+  position: absolute;
+  width: 299px;
+  height: 299px;
+  border-radius: 12px;
+  box-shadow: var(--shadow-calm-shadow-mood);
+}
+
+/* Estilos para el grupo de elementos .group-2 dentro de .BLOQUE */
+.BLOQUE .group-2 {
+  position: absolute;
+  width: 641px;
+  height: 277px;
+  top: 241px;
+  left: 120px;
+}
+
+/* Estilos para el elemento .text-wrapper dentro de .group-2 */
+.BLOQUE .text-wrapper {
+  position: absolute;
+  width: 577px;
+  top: 0;
+  left: 0;
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #232323;
+  font-size: 34px;
+  letter-spacing: 1.76px;
+  line-height: 66px;
+}
+
+/* Estilos para el elemento .morbi-ac-sit-vel dentro de .group-2 */
+.BLOQUE .morbi-ac-sit-vel {
+  position: absolute;
+  width: 637px;
+  top: 157px;
+  left: 0;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #696969;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  line-height: 40px;
+}
+
+/* Estilos para el grupo de elementos .group-3 dentro de .BLOQUE */
+.BLOQUE .group-3 {
+  position: absolute;
+  width: 641px;
+  height: 277px;
+  top: 953px;
+  left: 683px;
+}
+
+/* Estilos para el elemento .overlap-group dentro de .group-3 */
+.BLOQUE .overlap-group {
+  position: absolute;
+  width: 853px;
+  height: 513px;
+  top: 885px;
+  left: -340px;
+}
+
+/* Estilos para el elemento .img dentro de .overlap-group */
+.BLOQUE .img {
+  position: absolute;
+  width: 513px;
+  height: 513px;
+  top: 0;
+  left: 340px;
+}
+
+/* Estilos para el grupo de elementos .group-4 dentro de .BLOQUE */
+.BLOQUE .group-4 {
+  position: absolute;
+  width: 679px;
+  height: 213px;
+  top: 154px;
+  left: 0;
+  transform: rotate(180deg);
+}
+
+/* Estilos para el elemento .rectangle-2 dentro de .group-4 */
+.BLOQUE .rectangle-2 {
+  position: absolute;
+  width: 606px;
+  height: 99px;
+  top: 0;
+  left: 73px;
+  background-color: #ffffff1a;
+  border-radius: 86px;
+  filter: blur(12px); /* Efecto de blur aplicado */
+}
+
+/* Estilos para el elemento .rectangle-3 dentro de .group-4 */
+.BLOQUE .rectangle-3 {
+  position: absolute;
+  width: 606px;
+  height: 99px;
+  top: 114px;
+  left: 0;
+  background-color: #ffffff0d;
+  border-radius: 86px;
+  filter: blur(12px); /* Efecto de blur aplicado */
+}
+
+/* Estilos para el grupo de elementos .group-5 dentro de .BLOQUE */
+.BLOQUE .group-5 {
+  position: absolute;
+  width: 174px;
+  height: 40px;
+  top: 546px;
+  left: 120px;
+}
+
+/* Estilos para el elemento .see-more dentro de .group-5 */
+.BLOQUE .see-more {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgb(255, 0, 110) 0%, rgb(255, 190, 11) 100%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  line-height: 40px;
+  white-space: nowrap;
+}
+
+/* Estilos para el elemento .vector-2 dentro de .BLOQUE */
+.BLOQUE .vector-2 {
+  position: absolute;
+  width: 54px;
+  height: 9px;
+  top: 17px;
+  left: 118px;
+}
+
+/* Estilos para el grupo de elementos .group-6 dentro de .BLOQUE */
+.BLOQUE .group-6 {
+  position: absolute;
+  width: 174px;
+  height: 40px;
+  top: 1258px;
+  left: 683px;
+}
+
+
+
+
+                                                                  /* Estilos para section4 */
+
+.popular {
+  position: relative;
+  width: 1440px;
+  height: 1024px;
+  background-color: #ffffff;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.popular .our-popular-courses {
+  position: absolute;
+  top: 74px;
+  left: 500px;
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #232323;
+  font-size: 44px;
+  letter-spacing: 1.76px;
+  line-height: 66px;
+  white-space: nowrap;
+}
+
+.popular .morbi-ac-sit-vel {
+  position: absolute;
+  width: 921px;
+  top: 165px;
+  left: 260px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #696969;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  line-height: 40px;
+}
+
+.popular .frame {
+  align-items: center;
+  gap: 30px;
+  top: 324px;
+  left: 212px;
+  overflow-x: scroll;
+  display: inline-flex;
+  position: absolute;
+}
+
+.popular .card {
+  position: relative;
+  width: 482px;
+  height: 596px;
+  background-color: #ffffff;
+  border-radius: 20px 20px 0px 0px;
+  overflow: hidden;
+  box-shadow: var(--shadow-calm-shadow-mood);
+}
+
+.popular .image {
+  position: absolute;
+  width: 482px;
+  height: 303px;
+  top: 0;
+  left: 0;
+  background-color: #f1f1f1;
+}
+
+.popular .group {
+  position: absolute;
+  width: 384px;
+  height: 160px;
+  top: 332px;
+  left: 51px;
+}
+
+.popular .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #343434;
+  font-size: 24px;
+  letter-spacing: 0.96px;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.popular .magnis-accumsan-vel {
+  position: absolute;
+  width: 380px;
+  top: 64px;
+  left: 0;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #7a7a7a;
+  font-size: 16px;
+  letter-spacing: 0.64px;
+  line-height: 32px;
+}
+
+.popular .div {
+  position: absolute;
+  width: 394px;
+  height: 36px;
+  top: 509px;
+  left: 44px;
+}
+
+.popular .frame-2 {
+  align-items: center;
+  gap: 15px;
+  padding: 3px 15px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 36px;
+  overflow: hidden;
+  box-shadow: var(--shadow-calm-shadow-mood);
+  display: inline-flex;
+  position: absolute;
+}
+
+.popular .vector-wrapper {
+  position: relative;
+  width: 28px;
+  height: 28px;
+  background-color: #ffffff;
+  border-radius: 14px;
+  box-shadow: var(--shadow-calm-shadow-mood);
+}
+
+.popular .vector {
+  position: absolute;
+  width: 12px;
+  height: 14px;
+  top: 7px;
+  left: 9px;
+}
+
+.popular .element-lesson {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #696969;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.popular .frame-3 {
+  align-items: flex-end;
+  gap: 8px;
+  top: 3px;
+  left: 237px;
+  display: inline-flex;
+  position: absolute;
+}
+
+.popular .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  background: linear-gradient(180deg, rgb(255, 0, 110) 0%, rgb(255, 190, 11) 100%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.popular .join-members {
+  position: relative;
+  width: fit-content;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #696969;
+  font-size: 12px;
+  letter-spacing: 0.48px;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.popular .group-2 {
+  position: absolute;
+  width: 376px;
+  height: 36px;
+  top: 509px;
+  left: 44px;
+}
+
+
+
+                                                            /* Estilos para section5 */
+
+
+.plan {
+  position: relative;
+  width: 1440px;
+  height: 1116px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+.plan .choose-your-plan {
+  position: absolute;
+  top: 110px;
+  left: 532px;
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #232323;
+  font-size: 44px;
+  letter-spacing: 1.76px;
+  line-height: 66px;
+  white-space: nowrap;
+}
+
+.plan .morbi-ac-sit-vel {
+  position: absolute;
+  width: 921px;
+  top: 201px;
+  left: 260px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #696969;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  line-height: 40px;
+}
+
+.plan .group {
+  position: absolute;
+  width: 1116px;
+  height: 670px;
+  top: 340px;
+  left: 162px;
+}
+
+.plan .div {
+  position: absolute;
+  width: 286px;
+  height: 381px;
+  top: 145px;
+  left: 0;
+}
+
+.plan .img-wrapper {
+  position: absolute;
+  width: 78px;
+  height: 78px;
+  top: 0;
+  left: 102px;
+  background-color: #ffffff;
+  border-radius: 39px;
+  box-shadow: var(--shadow-calm-shadow-mood);
+}
+
+.plan .icon-user-community {
+  position: absolute;
+  width: 37px;
+  height: 34px;
+  top: 20px;
+  left: 20px;
+}
+
+.plan .regular {
+  position: absolute;
+  top: 148px;
+  left: 97px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #343434;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0.96px;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.plan .learn-is-a-basic {
+  position: absolute;
+  width: 282px;
+  top: 219px;
+  left: 0;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #7a7a7a;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0.64px;
+  line-height: 32px;
+}
+
+.plan .group-2 {
+  position: absolute;
+  width: 75px;
+  height: 59px;
+  top: 322px;
+  left: 106px;
+}
+
+.plan .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(180deg, rgb(255, 0, 110) 0%, rgb(255, 190, 11) 100%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 25px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 50px;
+  white-space: nowrap;
+}
+
+.plan .element {
+  position: absolute;
+  top: 9px;
+  left: 15px;
+  background: linear-gradient(180deg, rgb(255, 0, 110) 0%, rgb(255, 190, 11) 100%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 50px;
+  white-space: nowrap;
+}
+
+.plan .span {
+  color: #000000;
+}
+
+.plan .text-wrapper-2 {
+  color: #000000;
+  font-size: 15px;
+  letter-spacing: 0.6px;
+  line-height: 30px;
+}
+
+.plan .overlap-group-wrapper {
+  position: absolute;
+  width: 344px;
+  height: 670px;
+  top: 0;
+  left: 386px;
+}
+
+.plan .overlap-group {
+  position: relative;
+  width: 532px;
+  height: 810px;
+  top: -50px;
+  left: -84px;
+  background-image: url(./img/rectangle-09.svg);
+  background-size: 100% 100%;
+}
+
+.plan .group-3 {
+  position: relative;
+  width: 286px;
+  height: 482px;
+  top: 188px;
+  left: 115px;
+}
+
+.plan .frame {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 13px 35px;
+  position: absolute;
+  top: 416px;
+  left: 61px;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: var(--shadow-calm-shadow-mood);
+  background: linear-gradient(180deg, rgb(255, 0, 110) 0%, rgb(255, 190, 11) 100%);
+}
+
+.plan .join-now {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  line-height: 40px;
+  white-space: nowrap;
+}
+
+.plan .icon-agency {
+  position: absolute;
+  width: 38px;
+  height: 44px;
+  top: 18px;
+  left: 20px;
+}
+
+.plan .agency {
+  position: absolute;
+  top: 148px;
+  left: 99px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #343434;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0.96px;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.plan .group-4 {
+  position: absolute;
+  width: 90px;
+  height: 59px;
+  top: 322px;
+  left: 98px;
+}
+
+.plan .group-5 {
+  position: absolute;
+  width: 286px;
+  height: 390px;
+  top: 140px;
+  left: 834px;
+}
+
+.plan .icon-eye-check {
+  position: absolute;
+  width: 41px;
+  height: 31px;
+  top: 24px;
+  left: 18px;
+}
+
+.plan .private {
+  position: absolute;
+  top: 148px;
+  left: 100px;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #343434;
+  font-size: 24px;
+  text-align: center;
+  letter-spacing: 0.96px;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.plan .group-6 {
+  position: absolute;
+  width: 90px;
+  height: 59px;
+  top: 331px;
+  left: 98px;
+}
+   
+
+                                                                  /* Estilos para section6 */   
+                            
+/* Estilo para el contenedor principal */
+.testimony {
+  position: relative;
+  width: 1440px;
+  height: 560px;
+  background-color: #ffffff;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+/* Estilo para el grupo de contenido de testimonio */
+.testimony .group {
+  position: absolute;
+  width: 507px;
+  height: 277px;
+  top: 142px;
+  left: 123px;
+}
+
+/* Estilo para el título "Lo que dicen nuestros clientes" */
+.testimony .what-our-clients-say {
+  position: absolute;
+  width: 339px;
+  top: 0;
+  left: 0;
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #232323;
+  font-size: 34px;
+  letter-spacing: 1.76px;
+  line-height: 66px;
+}
+
+/* Estilo para el texto de testimonio */
+.testimony .morbi-ac-sit-vel {
+  position: absolute;
+  width: 503px;
+  top: 157px;
+  left: 0;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #696969;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  line-height: 40px;
+}
+
+/* Estilo para el contenedor de los marcos de testimonio */
+.testimony .div {
+  position: absolute;
+  width: 1492px;
+  height: 309px;
+  top: 120px;
+  left: 681px;
+}
+
+/* Estilo para el marco de testimonio individual */
+.testimony .frame {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 19px;
+  padding: 29px 48px;
+  position: absolute;
+  top: 0;
+  left: 1018px;
+  border-radius: 26px;
+  display: inline-flex;
+  background-color: #ffffff;
+  overflow: hidden;
+  box-shadow: var(--shadow-calm-shadow-mood);
+}
+
+/* Estilo para la imagen de testimonio */
+.testimony .image {
+  position: relative;
+  width: 30px;
+  height: 23px;
+  margin-top: -5054px;
+  margin-left: -1699px;
+}
+
+/* Estilo para el texto del testimonio */
+.testimony .text-wrapper {
+  position: relative;
+  width: 378px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #7a7a7a;
+  font-size: 16px;
+  letter-spacing: 0.64px;
+  line-height: 32px;
+}
+
+/* Estilo para el marco de estrellas y nombre */
+.testimony .frame-2 {
+  align-items: center;
+  gap: 14px;
+  padding: 6px 21px 6px 7px;
+  position: relative;
+  flex: 0 0 auto;
+  border-radius: 59px;
+  display: inline-flex;
+  background-color: #ffffff;
+  overflow: hidden;
+  box-shadow: var(--shadow-calm-shadow-mood);
+}
+
+/* Estilo para el ícono de usuario en el marco de testimonio */
+.testimony .div-2 {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-image: url('img/elian.png'); /* Reemplaza 'ruta-de-la-imagen.jpg' con la ruta de tu imagen */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el elemento */
+  border-radius: 25px;
+  box-shadow: var(--shadow-calm-shadow-mood);
+}
+
+
+/* Estilo para el grupo de estrellas y nombre */
+.testimony .group-2 {
+  position: relative;
+  width: 141px;
+  height: 42.88px;
+  margin-right: -2px;
+}
+
+/* Estilo para el nombre en el marco de testimonio */
+.testimony .text-wrapper-2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #4e4e4e;
+  font-size: 17px;
+  letter-spacing: 0.68px;
+  line-height: 25.5px;
+  white-space: nowrap;
+}
+
+/* Estilo para el grupo de estrellas */
+.testimony .group-3 {
+  position: absolute;
+  width: 72px;
+  height: 13px;
+  top: 30px;
+  left: 0;
+}
+
+/* Estilo para las estrellas individuales en el testimonio */
+.testimony .star {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  top: -5240px;
+  left: -1747px;
+}
+
+/* Estilo para la imagen de estrella en el marco de testimonio */
+.testimony .img {
+  position: absolute;
+  width: 12px;
+  height: 13px;
+  top: -5240px;
+  left: -1732px;
+}
+
+/* Estilo para el texto de estrella en el marco de testimonio */
+.testimony .star-2 {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  top: -5240px;
+  left: -1717px;
+}
+
+/* Estilo para el texto de estrella en el marco de testimonio */
+.testimony .star-3 {
+  position: absolute;
+  width: 12px;
+  height: 13px;
+  top: -5240px;
+  left: -1702px;
+}
+
+/* Estilo para el texto de estrella en el marco de testimonio */
+.testimony .star-4 {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  top: -5240px;
+  left: -1688px;
+}
+
+/* Estilo para el segundo marco de testimonio individual */
+.testimony .frame-3 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 19px;
+  padding: 29px 48px;
+  position: absolute;
+  top: 0;
+  left: 509px;
+  border-radius: 26px;
+  display: inline-flex;
+  background-color: #ffffff;
+  overflow: hidden;
+  box-shadow: var(--shadow-calm-shadow-mood);
+}
+
+/* Estilo para la segunda imagen de testimonio */
+.testimony .image-2 {
+  position: relative;
+  width: 30px;
+  height: 23px;
+}
+
+/* Estilo para el grupo de estrellas en el segundo testimonio */
+.testimony .group-4 {
+  width: 116px;
+  position: relative;
+  height: 42.88px;
+  margin-right: -2px;
+}
+
+/* Estilo para las estrellas individuales en el segundo testimonio */
+.testimony .star-5 {
+  left: 0;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 0;
+}
+
+/* Estilo para las estrellas individuales en el segundo testimonio */
+.testimony .star-6 {
+  left: 15px;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 0;
+}
+
+/* Estilo para las estrellas individuales en el segundo testimonio */
+.testimony .star-7 {
+  left: 30px;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 0;
+}
+
+/* Estilo para las estrellas individuales en el segundo testimonio */
+.testimony .star-8 {
+  left: 45px;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 0;
+}
+
+/* Estilo para las estrellas individuales en el segundo testimonio */
+.testimony .star-9 {
+  left: 59px;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 0;
+}
+
+/* Estilo para el tercer marco de testimonio individual */
+.testimony .frame-4 {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 19px;
+  padding: 29px 48px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 26px;
+  display: inline-flex;
+  background-color: #ffffff;
+  overflow: hidden;
+  box-shadow: var(--shadow-calm-shadow-mood);
+}
+
+/* Estilo para el tercer grupo de estrellas */
+.testimony .group-5 {
+  width: 130px;
+  position: relative;
+  height: 42.88px;
+  margin-right: -2px;
+}
+
+                                                                      /* Estilo para section7 */
+
+/* Estilo para la sección CTA */
+.CTA {
+  width: 1440px;
+  height: 512px;
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+/* Estilo para el grupo dentro de CTA */
+.CTA .group {
+  position: relative;
+  width: 978px;
+  height: 406px;
+  top: 53px;
+  left: 231px;
+  background-color: #ffffff;
+  border-radius: 33px;
+  box-shadow: var(--shadow-calm-shadow-mood);
+}
+
+/* Estilo para el div dentro de CTA */
+.CTA .div {
+  position: relative;
+  width: 721px;
+  height: 276px;
+  top: 65px;
+  left: 131px;
+}
+
+/* Estilo para el título "Learning Business" dentro de CTA */
+.CTA .learning-business {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Roboto-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #232323;
+  font-size: 34px;
+  text-align: center;
+  letter-spacing: 1.76px;
+  line-height: 66px;
+  white-space: nowrap;
+}
+
+/* Estilo para el texto "Morbi ac sit vel" dentro de CTA */
+.CTA .morbi-ac-sit-vel {
+  position: absolute;
+  width: 717px;
+  top: 98px;
+  left: 0;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #696969;
+  font-size: px;
+  text-align: center;
+  letter-spacing: 0.8px;
+  line-height: 40px;
+}
+
+/* Estilo para el botón "Register Now" dentro de CTA */
+.CTA .frame {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 13px 35px;
+  position: absolute;
+  top: 210px;
+  left: 258px;
+  border-radius: 40px;
+  overflow: hidden;
+  box-shadow: var(--shadow-calm-shadow-mood);
+  background: linear-gradient(180deg, rgb(255, 0, 110) 0%, rgb(255, 190, 11) 100%);
+}
+
+/* Estilo para el texto "Register Now" dentro del botón CTA */
+.CTA .register-now {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0.8px;
+  line-height: 40px;
+  white-space: nowrap;
+}
+
+
+                                                          /* Estilo para section8 */
+
+.footer {
+  width: 1440px;
+  height: 541px;
+  background-color: #ffffff;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.footer .overlap-group {
+  position: relative;
+  width: 1946px;
+  height: 480px;
+  top: 81px;
+  left: -506px;
+}
+
+.footer .rectangle {
+  position: absolute;
+  width: 1440px;
+  height: 460px;
+  top: 0;
+  left: 506px;
+}
+
+.footer .coursy {
+  position: absolute;
+  top: 65px;
+  left: 618px;
+  font-family: "Roboto-Bold", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 37px;
+  letter-spacing: 1.48px;
+  line-height: 74px;
+  white-space: nowrap;
+}
+
+.footer .morbi-ac-sit-vel {
+  position: absolute;
+  width: 393px;
+  top: 150px;
+  left: 618px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0.64px;
+  line-height: 32px;
+}
+
+.footer .group {
+  position: absolute;
+  width: 97px;
+  height: 229px;
+  top: 88px;
+  left: 1307px;
+}
+
+.footer .company {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 19px;
+  letter-spacing: 0.76px;
+  line-height: 38px;
+  white-space: nowrap;
+}
+
+.footer .div {
+  position: absolute;
+  width: 103px;
+  height: 174px;
+  top: 55px;
+  left: 0;
+}
+
+.footer .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Roboto-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.72px;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.footer .text-wrapper-2 {
+  position: absolute;
+  top: 46px;
+  left: 0;
+  font-family: "Roboto-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.72px;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.footer .text-wrapper-3 {
+  position: absolute;
+  top: 92px;
+  left: 0;
+  font-family: "Roboto-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.72px;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.footer .contact-us {
+  position: absolute;
+  top: 138px;
+  left: 0;
+  font-family: "Roboto-Light", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 18px;
+  letter-spacing: 0.72px;
+  line-height: 36px;
+  white-space: nowrap;
+}
+
+.footer .group-2 {
+  position: absolute;
+  width: 163px;
+  height: 179px;
+  top: 88px;
+  left: 1491px;
+}
+
+.footer .group-3 {
+  position: absolute;
+  width: 167px;
+  height: 128px;
+  top: 51px;
+  left: 0;
+}
+
+.footer .text-wrapper-4 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Roboto-Medium", Helvetica;
+  font-weight: 500;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0.68px;
+  line-height: 34px;
+  white-space: nowrap;
+}
+
+.footer .group-4 {
+  position: absolute;
+  width: 72px;
+  height: 179px;
+  top: 88px;
+  left: 1145px;
+}
+
+.footer .group-5 {
+  position: absolute;
+  width: 76px;
+  height: 128px;
+  top: 51px;
+  left: 0;
+}
+
+.footer .media {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 36px;
+  position: absolute;
+  top: 278px;
+  left: 618px;
+}
+
+.footer .group-6 {
+  position: relative;
+  width: 168px;
+  height: 23.34px;
+}
+
+.footer .youtube {
+  position: absolute;
+  width: 24px;
+  height: 19px;
+  top: 2px;
+  left: 103px;
+}
+
+.footer .google {
+  position: absolute;
+  width: 22px;
+  height: 24px;
+  top: -1px;
+  left: 0;
+}
+
+.footer .twitter {
+  position: absolute;
+  width: 24px;
+  height: 20px;
+  top: 2px;
+  left: 50px;
+}
+
+.footer .facebook {
+  position: absolute;
+  width: 13px;
+  height: 24px;
+  top: -1px;
+  left: 156px;
+}
+
+.footer .group-7 {
+  position: absolute;
+  width: 398px;
+  height: 20px;
+  top: 416px;
+  left: 1427px;
+}
+
+.footer .courses {
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #ffffff;
+  white-space: nowrap;
+}
+
+.footer .privacy-policy {
+  position: absolute;
+  top: 0;
+  left: 93px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.footer .text-wrapper-5 {
+  position: absolute;
+  top: 0;
+  left: 226px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.footer .group-8 {
+  position: absolute;
+  width: 679px;
+  height: 213px;
+  top: 267px;
+  left: 0;
+}
+
+.footer .rectangle-2 {
+  position: absolute;
+  width: 606px;
+  height: 99px;
+  top: 114px;
+  left: 73px;
+  background-color: #ffffff0d;
+  border-radius: 86px;
+  filter: blur(12px);
+}
+
+.footer .rectangle-3 {
+  position: absolute;
+  width: 606px;
+  height: 99px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff0d;
+  border-radius: 86px;
+  filter: blur(12px);
+}
+
+.footer .p {
+  position: absolute;
+  top: 412px;
+  left: 618px;
+  font-family: "Roboto-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 24px;
+  white-space: nowrap;
+}
+
+.footer .vector {
+  position: absolute;
+  width: 1201px;
+  height: 1px;
+  top: 396px;
+  left: 618px;
+  object-fit: cover;
+}
+
+
